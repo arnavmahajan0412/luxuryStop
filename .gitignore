@@ -20,3 +20,7 @@ pnpm-debug.log*
 .idea/
 .vscode/
 *.swp
+
+# Legacy static-prototype files (the app uses src/)
+/script.js
+/styles.css
