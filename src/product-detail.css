@@ -1,0 +1,1 @@
+.main-product-image{justify-content:flex-start;overflow:hidden}.main-product-image img{width:300%;max-width:none;flex:none;object-fit:cover;object-position:center;height:100%}.main-product-image.crop-0 img{transform:translateX(0)}.main-product-image.crop-1 img{transform:translateX(-33.333%)}.main-product-image.crop-2 img{transform:translateX(-66.666%)}
