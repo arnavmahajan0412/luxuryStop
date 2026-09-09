@@ -1,0 +1,69 @@
+/* Luxury Stop / Modern Heritage
+   An editorial palette built around ivory paper, espresso ink and oxblood accents. */
+:root {
+  --market-coral:#9f393b;
+  --market-ink:#241a17;
+  --market-blue:#6f3931;
+  --market-pale:#f7f1e8;
+  --market-line:#e1d2c0;
+}
+
+body { background:#f7f1e8; color:#241a17; }
+.ticker { background:#211815; color:#f8eedf; }
+.ticker i { color:#d6a75c; }
+header, .catalog-header, .product-header { background:#fffaf4; border-color:#e1d2c0; box-shadow:0 3px 18px #241a170b; }
+.wordmark { color:#241a17; }
+.hero { background:#ead8c4; }
+.hero-copy > p:not(.kicker), .accessories-title > p:last-child, .catalog-intro > p:last-child { color:#665047; }
+.hero-media { background:#6f3931; }
+.hero-sticker { background:#b34b45; color:#fffaf4; }
+.hero-sticker small { color:#fffaf4; }
+.floating-product { background:#fffaf4; color:#241a17; box-shadow:0 14px 34px #21100d40; }
+.floating-product i { background:#b89968; }
+.button.dark, .product-add { background:#9f393b !important; color:#fffaf4; }
+.button.dark:hover { background:#7f292c; }
+.text-link { border-color:#9f393b; }
+.ritual-strip { background:#fffaf4; color:#241a17; border-color:#e1d2c0; }
+.ritual-strip span:nth-child(even) { color:#b48646; }
+
+.accessories-section, .catalog-page { background:#f7f1e8; }
+.accessory-image, .catalog-image { background:#e8daca; }
+.accessory-image > span, .catalog-image span { background:#fffaf4; color:#793233; }
+.accessory-image > b, .catalog-image b { background:#9f393b; }
+.accessory-info small { color:#9f393b; }
+.collection-cta { background:#241a17; color:#fffaf4; }
+.collection-cta:hover { background:#9f393b; }
+.brand-index { background:#211815; color:#fffaf4; }
+.brand-index .kicker { color:#d8b784; }
+.brand-logo-tile { border-color:#e4c99a4d; background:linear-gradient(135deg,#ffffff1a,#ffffff05); }
+.brand-logo-tile:hover { border-color:#e6be72; box-shadow:0 0 28px #d5a45133,inset 0 1px #ffffff5c; }
+.story { background:#e7d4bd; }
+.story-content p { color:#5d463c; }
+.newsletter { background:#9f393b; color:#fffaf4; }
+.newsletter .kicker, .newsletter small { color:#f1d7b2; }
+.newsletter form { border-color:#f1d7b2; }
+.newsletter input { color:#fffaf4; }
+.newsletter input::placeholder { color:#f1d7b2; opacity:1; }
+.newsletter button { color:#fffaf4; }
+footer { background:#211815; color:#fffaf4; }
+footer p, footer small { color:#d4bdab; }
+
+.catalog-intro { background:linear-gradient(120deg,#e7cfb7,#f4e9dd); }
+.catalog-filter button.active { background:#9f393b; border-color:#9f393b; }
+.catalog-card small { color:#9f393b; }
+.style-spotlight { background:linear-gradient(115deg,#2d1e1b,#6f3931); }
+.spotlight-copy .kicker { color:#e4c083; }
+.product-gallery { background:#e8daca; }
+.main-product-image { background:#fffaf4 !important; }
+.product-stock { color:#3e7f57; }
+.product-promises { color:#665047; }
+.account-page, .account-panel, .bag-drawer { background:#f7f1e8; }
+.account-visual { background:#241a17; }
+.account-form input:focus { border-color:#9f393b; }
+.bag-overlay { background:#211815a8; }
+.bag-thumb { background:#e8daca !important; }
+
+@media (max-width:760px) {
+  header nav.mobile-open { background:#fffaf4; border-color:#e1d2c0; }
+  .hero-media { height:370px; }
+}

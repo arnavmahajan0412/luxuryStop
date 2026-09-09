@@ -14,5 +14,6 @@ import './brand-carousel.css'
 import './marketplace.css'
 import './brand-logos.css'
 import './mobile-fix.css'
+import './theme-modern-heritage.css'
 import App from './App'
 createRoot(document.getElementById('root')).render(<StrictMode><App /></StrictMode>)
