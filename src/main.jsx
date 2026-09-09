@@ -11,5 +11,6 @@ import './catalog-layout.css'
 import './catalog-scale.css'
 import './spotlight.css'
 import './brand-carousel.css'
+import './marketplace.css'
 import App from './App'
 createRoot(document.getElementById('root')).render(<StrictMode><App /></StrictMode>)
