@@ -14,6 +14,7 @@ body { background:#f7f3ed; color:#1c1b1a; }
 header, .catalog-header, .product-header { background:#fbf8f3; border-color:#dfd7cb; box-shadow:0 2px 18px #1c1b1a0a; }
 .wordmark { color:#1c1b1a; }
 .wordmark em { color:#1c1b1a; }
+.mobile-menu, .bag { color:#1c1b1a; }
 
 .hero { background:#e9e1d5; }
 .hero h1 i, h2 i { color:#9b7a43; }
